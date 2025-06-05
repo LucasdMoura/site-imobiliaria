@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #4ca0af; 
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    background-color: #4ca0af;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.nav-link {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-link:hover {
+    outline: 2px solid #ffffff;
+    outline-offset: 8%;
+    border-radius: 8%;      
+}
